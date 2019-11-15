@@ -16,6 +16,3 @@ else
 	sudo apt install -y docker.io
 	sudo usermod -aG docker $USER
 fi
-if [[ "$(docker images -q ncbi/blast:latest 2> /dev/null)" == "" ]]; then
-	docker pull ncbi/blast 
-fi 

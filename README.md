@@ -1,10 +1,12 @@
 # NCBI BLAST+ and DIAMOND in Google Cloud 
 
-Pre requisites: 
-Google cloud SDK, 
-Google cloud ssh & scp enabled 
-Private and Public ssh key for google cloud enabled. 
-Google cloud Linux virtual machine 
+## Installation 
+
+## Prerequities 
+* Google cloud SDK, 
+* Google cloud ```ssh``` & ```scp``` enabled 
+* Private and Public ssh key for Google cloud enabled. 
+* Google cloud Linux virtual machine 
 
 Usage: ./alignment.sh [options]
 

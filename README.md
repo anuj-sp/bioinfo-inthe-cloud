@@ -2,12 +2,24 @@
 
 ## Installation 
 
-## Prerequities 
+### Prerequities 
 * Google cloud SDK, 
 * Google cloud ```ssh``` & ```scp``` enabled 
-* Private and Public ssh key for Google cloud enabled. 
-* Google cloud Linux virtual machine 
+* Private and public ssh key for Google cloud enabled. 
+* Google cloud linux virtual machine 
 
+### Building project 
+* Clone the repository 
+```
+$ git clone https://github.com/anujsp2797/bioinfo-inthe-cloud/
+$ cd bioinfo-inthe-cloud 
+```
+* Setup prerequites 
+```
+$ bash setup.sh 
+```
+
+### Running 
 Usage: ./alignment.sh [options]
 
 Compulsory Arguments: 
